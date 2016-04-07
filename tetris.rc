@@ -1,0 +1,88 @@
+// Microsoft Visual C++ generated resource script.
+//
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+//LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAPf1            BITMAP                  "res/figura1.bmp"
+IDB_BITMAPf2             BITMAP                  "res/figura2.bmp"
+IDB_BITMAPf3             BITMAP                  "res/figura3.bmp"
+IDB_BITMAPf4             BITMAP                  "res/figura4.bmp"
+IDB_BITMAPf5             BITMAP                  "res/figura5.bmp"
+IDB_BITMAPf6             BITMAP                  "res/figura6.bmp"
+IDB_BITMAPf7             BITMAP                  "res/figura7.bmp"
+IDB_BITMAP_BACK         BITMAP                  "res/back.bmp"
+IDB_BITMAP_BACK2         BITMAP                  "res/back_2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_ABOUT DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,67,74,50,14
+    LTEXT           "Tetris ",IDC_STATIC,21,17,44,8
+    LTEXT           "Michail Reznikov,   2016",IDC_STATIC,21,33,87,8
+    LTEXT           "based on cross null by Alex A. Trubetskoy",IDC_STATIC,21,50,72,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    DLG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
